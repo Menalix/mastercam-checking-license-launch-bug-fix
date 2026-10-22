@@ -6,7 +6,7 @@ I've tested this on **Mastercam 2026, build 28.0.0.0**. It's a proof of concept,
 
 > **Before using this:** the patch modifies a signed Mastercam executable and invalidates its digital signature. Modifying vendor binaries may violate your EULA or affect your license or support rights. Check your terms or ask Mastercam first. This isn't an official or supported fix.
 
-![Mastercam stuck on Checking License](images/checking-license.png)
+<a href="images/checking-license.png"><img src="images/checking-license.png" alt="Mastercam stuck on Checking License" width="400"></a>
 
 ## Why does restarting sometimes help?
 
