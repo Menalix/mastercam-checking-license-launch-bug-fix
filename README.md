@@ -6,6 +6,8 @@ I've tested this on **Mastercam 2026, build 28.0.0.0**. It's a proof of concept,
 
 > **Before using this:** the patch modifies a signed Mastercam executable and invalidates its digital signature. Modifying vendor binaries may violate your EULA or affect your license or support rights. Check your terms or ask Mastercam first. This isn't an official or supported fix.
 
+![Mastercam stuck on Checking License](images/checking-license.png)
+
 ## Patch the launcher
 
 Install Python 3, download this repo, then run:
