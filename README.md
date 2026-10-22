@@ -8,6 +8,12 @@ I've tested this on **Mastercam 2026, build 28.0.0.0**. It's a proof of concept,
 
 ![Mastercam stuck on Checking License](images/checking-license.png)
 
+## Why does restarting sometimes help?
+
+The reminder counter advances before the agreement opens. Killing the hung process can leave that advance saved, so the next launch may skip the reminder and start normally.
+
+Opening Mastercam directly also avoids the file selector's hidden-start setting. Without the patch, try starting Mastercam first, then opening your `.emcam` file from inside it.
+
 ## Patch the launcher
 
 Install Python 3, download this repo, then run:
