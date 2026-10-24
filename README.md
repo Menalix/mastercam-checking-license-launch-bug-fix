@@ -2,7 +2,7 @@
 
 Opening an `.emcam` file can leave Mastercam waiting for an invisible agreement window. The file launcher, `McamVersionSelector.exe`, starts Mastercam with `SW_HIDE` instead of `SW_SHOWNORMAL`.
 
-I've tested this on **Mastercam 2026, build 28.0.0.0**. It's a proof of concept, shared in the hope that Mastercam will fix the bug officially.
+I've tested this on **Mastercam 2026, build 28.0.0.0**. Shared in the hope that Mastercam will fix the bug officially.
 
 > **Before using this:** the patch modifies a signed Mastercam executable and invalidates its digital signature. Modifying vendor binaries may violate your EULA or affect your license or support rights. Check your terms or ask Mastercam first. This isn't an official or supported fix.
 
